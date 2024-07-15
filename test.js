@@ -31,13 +31,27 @@ var c = `${a}${b}`
 
 // c = `${a} ${b} al ${3+5}`
 // console.log(c)
+// console.log(a[0])
+// console.log(a.charAt(0))
+// console.log(b.indexOf("t"))
+// console.log(b.indexOf("t",3))
+// console.log(b.lastIndexOf("t"))
+// console.log(a.startsWith("t"))
+// console.log(a.startsWith("s",2))
+// console.log(b.endsWith("ar"))
+// console.log(b.endsWith("ar",4))
+// console.log(b.includes("tar"))
+// console.log(b.includes("leg"))
 
-console.log(a[0])
+var d = "Merhaba Dünya!"
 
-console.log(a.charAt(0))
+console.log(d.slice(1,3))
+console.log(d.slice(1))
+console.log(d.slice(0,4))
+console.log(d.substring(1,4))
+console.log(d.toUpperCase())
+console.log(d.toLowerCase())
 
-console.log(b.indexOf("t"))
+var e = " ada  "
 
-console.log(b.indexOf("t",3))
-
-console.log(b.lastIndexOf("t"))
+console.log(e.trim())
