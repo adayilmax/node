@@ -45,13 +45,42 @@ var c = `${a}${b}`
 
 var d = "Merhaba Dünya!"
 
-console.log(d.slice(1,3))
-console.log(d.slice(1))
-console.log(d.slice(0,4))
-console.log(d.substring(1,4))
-console.log(d.toUpperCase())
-console.log(d.toLowerCase())
+// console.log(d.slice(1,3))
+// console.log(d.slice(1))
+// console.log(d.slice(0,4))
+// console.log(d.substring(1,4))
+// console.log(d.toUpperCase())
+// console.log(d.toLowerCase())
 
 var e = " ada  "
 
-console.log(e.trim())
+// console.log(e.trim())
+// console.log(e.length)
+
+var f = 5.32
+
+// console.log(parseInt(f))
+// console.log(f.toFixed(1))
+// console.log(isNaN(f))
+// console.log(typeof f.toFixed(0))
+
+var g = 10
+var h = 2
+// var total = g+h
+// console.log(total)
+
+var i = "3.64"
+// var total = parseInt(i)
+// var total = parseFloat(i)
+var total = Number(i)
+// console.log(total)
+
+var j = 15
+// console.log(j == 15)
+var total1 = String(j) // j.toString(), null'la kullanılamıyor.
+// console.log(total1)
+// console.log(true && (false || true))
+
+
+
+// 10/48
