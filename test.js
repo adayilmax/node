@@ -81,6 +81,20 @@ var total1 = String(j) // j.toString(), null'la kullanılamıyor.
 // console.log(total1)
 // console.log(true && (false || true))
 
+var list = [1,"test",3]
+// console.log(typeof list)
+// console.log(list)
+// console.log(list[1])
+// console.log(list.length)
+// list.push("4")
+// console.log(list)
+// list.push(5)
+// console.log(list)
+// list = list.splice(2,1)
+// console.log(list)
 
 
-// 10/48
+
+
+
+// 14/48
