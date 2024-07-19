@@ -93,8 +93,44 @@ var list = [1,"test",3]
 // list = list.splice(2,1)
 // console.log(list)
 
+var str1 = "ada 12 23"
+var resp = str1.split(" ")
+// console.log(resp)
+
+var list1 = ["Ahmet","Mehmet","Ayşe"]
+list1[2] = "Ece"
+// console.log(list1)
+// .includes()
+// .indexOf() : -1 if not found
+// .lastIndexOf()
+// .splice() : affects the list
+// .slice() : doesn't affect the list
+
+var array1 = [1,2,3]
+var array2 = [4,5,6]
+
+var bigArray = array1.concat(array2)
+// console.log(bigArray)
+// Spread : ...array1, ...array2
+
+var array3 = ["Hello","World","Hi"]
+var join1 = array3.join(" ")
+array2.reverse()
+// console.log(join1)
+// console.log(array2)
+array2.pop()
+// console.log(array2)
+// .push()
+// .pop()
+// .shift()
+// .unshift()
+// .repeat()
+
+
+// for-for of-while-do while
+// break-continue-label
 
 
 
 
-// 14/48
+// 20/48
