@@ -127,10 +127,62 @@ array2.pop()
 // .repeat()
 
 
-// for-for of-while-do while
+// for-for of-while-do while-for each
 // break-continue-label
 
 
+//functions
+//recursive functions
+
+function call_back(result) {
+    if (result) console.log("Sayı çift")
+    else console.log("Sayı tek")
+}
+
+function cift_mi(x,callback) {
+    var result = (x % 2 == 0) ? true : false
+    callback(result)
+}
+
+// cift_mi(4,call_back)
 
 
-// 20/48
+
+function factorial(x) {
+    if (x == 0) {
+        return 1
+    }
+    else {
+        return x * factorial(x-1)
+    }
+}
+
+// console.log(factorial(4))
+
+var data = {
+    name: "Ada",
+    surname: "Yılmaz",
+    address: {
+        street: "Cadde",
+        no: 3
+    }
+}
+
+// console.log(data.address.no)
+// data?.address?.street
+
+
+// Object
+// mutable-immutable
+// .preventExtensions()
+// .isExtendible()
+// .seal()
+
+// Spread Syntax
+// .assign()
+// Deep Copy (JSON.stringify), JSON.parse
+
+
+
+
+// 27/48
